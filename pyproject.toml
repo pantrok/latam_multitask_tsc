@@ -1,0 +1,23 @@
+[project]
+name = "latam-multitask-tsc"
+version = "0.1.0"
+description = "Shared-backbone multi-task time series classification across 30 UCR Sensor datasets -- measuring the asymmetric accuracy penalty."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "adjustText>=1.1.0",
+    "aeon>=1.0.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "optuna>=3.6.0",
+    "pandas>=3.0.0",
+    "pyyaml>=6.0",
+    "requests>=2.32.5",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.14.0",
+    "seaborn>=0.13.0",
+    "torch>=2.10.0",
+    "torchaudio>=2.10.0",
+    "torchvision>=0.25.0",
+    "tqdm>=4.67.3",
+]

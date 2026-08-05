@@ -1,0 +1,32 @@
+# Final training configuration -- single source of truth for hyperparameters.
+# CNN and LSTM use separate configs; run_all.py's CLI flags override these
+# per-invocation but default to the values here.
+
+seeds: [7, 21, 42, 63, 84, 105, 126, 147]
+val_size: 0.2
+
+cnn:
+  epochs: 10
+  patience: 10                  # no early stop within budget
+  batch_size: 48
+  learning_rate: 0.001617
+  weight_decay: 0.0005454
+  dropout: 0.4592
+  scheduler: none
+  grad_clip: 0.5
+  label_smoothing: 0.02
+
+lstm:
+  epochs: 15
+  patience: 15
+  batch_size: 48
+  learning_rate: 0.002
+  weight_decay: 0.00005
+  dropout: 0.4
+  scheduler: cosine
+  grad_clip: 0
+  label_smoothing: 0
+
+amp: false                   # mixed precision deliberately disabled
+deterministic: false         # set true to enable torch.use_deterministic_algorithms(True)
+num_workers_colab: 0         # background DataLoader workers cause CPU oversubscription with no throughput benefit here

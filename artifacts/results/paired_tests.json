@@ -1,0 +1,46 @@
+{
+  "primary_test": "wilcoxon_signed_rank",
+  "unit": "each value is one seed's own mean test accuracy across all 30 datasets",
+  "c3_full_vs_c3_head": {
+    "seeds": [
+      7,
+      21,
+      42,
+      63,
+      84,
+      105,
+      126,
+      147
+    ],
+    "mean_c3_full": 0.6467665224981348,
+    "mean_c3_head": 0.6253111587266056,
+    "n_seeds": 8,
+    "mean_diff": 0.021455363771529207,
+    "std_diff": 0.006905348037438737,
+    "wilcoxon_statistic": 0.0,
+    "wilcoxon_p": 0.0078125,
+    "paired_t_statistic": 8.78810633927129,
+    "paired_t_p": 4.979395165032294e-05
+  },
+  "c3_head_vs_bn_only": {
+    "seeds": [
+      7,
+      21,
+      42,
+      63,
+      84,
+      105,
+      126,
+      147
+    ],
+    "mean_c3_head": 0.6253111587266056,
+    "mean_bn_only": 0.6181972009894219,
+    "n_seeds": 8,
+    "mean_diff": 0.007113957737183665,
+    "std_diff": 0.005275599706824564,
+    "wilcoxon_statistic": 0.0,
+    "wilcoxon_p": 0.0078125,
+    "paired_t_statistic": 3.8140329339466743,
+    "paired_t_p": 0.006593218294933652
+  }
+}

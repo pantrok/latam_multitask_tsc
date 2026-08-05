@@ -1,0 +1,14 @@
+{
+  "best_value": 1.3068327376640312,
+  "best_params": {
+    "learning_rate": 0.001165055293405376,
+    "weight_decay": 1.2611236054600717e-06,
+    "dropout": 0.004012612046842626,
+    "scheduler": "none",
+    "grad_clip": 0.0,
+    "label_smoothing": 0.0
+  },
+  "n_trials": 30,
+  "search_epochs": 8,
+  "search_seed": 7
+}

@@ -1,0 +1,26 @@
+{
+  "n_datasets": 30,
+  "silhouette_by_k": {
+    "2": {
+      "silhouette": 0.2482558337660374,
+      "cluster_sizes": [
+        25,
+        5
+      ]
+    },
+    "3": {
+      "silhouette": 0.29314938920829264,
+      "cluster_sizes": [
+        12,
+        5,
+        13
+      ]
+    }
+  },
+  "hopkins": {
+    "mean": 0.49345054749245243,
+    "std": 0.04332935703391316,
+    "n_repeats": 200,
+    "interpretation": "~0.5 = uniform/no cluster tendency; ->1 = highly clusterable; ->0 = regularly spaced"
+  }
+}

@@ -1,0 +1,12 @@
+# Reproducibility snapshot
+captured (UTC): 2026-08-03 15:11:59
+git commit: fb9c69609644d5427874150e78260a3196250712
+device: cuda (Tesla T4)
+python: 3.12.13
+pip freeze (filtered to packages this pipeline depends on):
+  numpy==2.0.2
+  optuna==4.9.0
+  pandas==2.2.2
+  scikit-learn==1.6.1
+  scipy==1.16.3
+  torch==2.11.0+cu128

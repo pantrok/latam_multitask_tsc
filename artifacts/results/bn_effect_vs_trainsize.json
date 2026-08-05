@@ -1,0 +1,248 @@
+{
+  "n_datasets": 30,
+  "n_permutations": 10000,
+  "spearman_rho": -0.2527587284516481,
+  "permutation_p": 0.17328267173282672,
+  "per_dataset": [
+    {
+      "dataset": "AllGestureWiimoteX",
+      "c3_head": 0.489107,
+      "c3_head_bn": 0.305714,
+      "train_size": 240,
+      "delta": 0.183393,
+      "log_train_size": 5.480639
+    },
+    {
+      "dataset": "AllGestureWiimoteY",
+      "c3_head": 0.5325,
+      "c3_head_bn": 0.3125,
+      "train_size": 240,
+      "delta": 0.22,
+      "log_train_size": 5.480639
+    },
+    {
+      "dataset": "AllGestureWiimoteZ",
+      "c3_head": 0.467321,
+      "c3_head_bn": 0.315179,
+      "train_size": 240,
+      "delta": 0.152143,
+      "log_train_size": 5.480639
+    },
+    {
+      "dataset": "Car",
+      "c3_head": 0.295833,
+      "c3_head_bn": 0.264583,
+      "train_size": 48,
+      "delta": 0.03125,
+      "log_train_size": 3.871201
+    },
+    {
+      "dataset": "ChlorineConcentration",
+      "c3_head": 0.411426,
+      "c3_head_bn": 0.389811,
+      "train_size": 373,
+      "delta": 0.021615,
+      "log_train_size": 5.921578
+    },
+    {
+      "dataset": "CinCECGTorso",
+      "c3_head": 0.316123,
+      "c3_head_bn": 0.274819,
+      "train_size": 32,
+      "delta": 0.041304,
+      "log_train_size": 3.465736
+    },
+    {
+      "dataset": "DodgerLoopDay",
+      "c3_head": 0.401562,
+      "c3_head_bn": 0.195312,
+      "train_size": 62,
+      "delta": 0.20625,
+      "log_train_size": 4.127134
+    },
+    {
+      "dataset": "DodgerLoopGame",
+      "c3_head": 0.594203,
+      "c3_head_bn": 0.560688,
+      "train_size": 16,
+      "delta": 0.033514,
+      "log_train_size": 2.772589
+    },
+    {
+      "dataset": "DodgerLoopWeekend",
+      "c3_head": 0.861413,
+      "c3_head_bn": 0.26087,
+      "train_size": 16,
+      "delta": 0.600543,
+      "log_train_size": 2.772589
+    },
+    {
+      "dataset": "Earthquakes",
+      "c3_head": 0.572842,
+      "c3_head_bn": 0.608813,
+      "train_size": 257,
+      "delta": -0.035971,
+      "log_train_size": 5.549076
+    },
+    {
+      "dataset": "FordA",
+      "c3_head": 0.948674,
+      "c3_head_bn": 0.948106,
+      "train_size": 2880,
+      "delta": 0.000568,
+      "log_train_size": 7.965546
+    },
+    {
+      "dataset": "FordB",
+      "c3_head": 0.823457,
+      "c3_head_bn": 0.822531,
+      "train_size": 2908,
+      "delta": 0.000926,
+      "log_train_size": 7.975221
+    },
+    {
+      "dataset": "FreezerRegularTrain",
+      "c3_head": 0.786447,
+      "c3_head_bn": 0.607149,
+      "train_size": 120,
+      "delta": 0.179298,
+      "log_train_size": 4.787492
+    },
+    {
+      "dataset": "FreezerSmallTrain",
+      "c3_head": 0.674298,
+      "c3_head_bn": 0.556272,
+      "train_size": 22,
+      "delta": 0.118026,
+      "log_train_size": 3.091042
+    },
+    {
+      "dataset": "GesturePebbleZ1",
+      "c3_head": 0.5,
+      "c3_head_bn": 0.257267,
+      "train_size": 105,
+      "delta": 0.242733,
+      "log_train_size": 4.65396
+    },
+    {
+      "dataset": "GesturePebbleZ2",
+      "c3_head": 0.512658,
+      "c3_head_bn": 0.22943,
+      "train_size": 116,
+      "delta": 0.283228,
+      "log_train_size": 4.75359
+    },
+    {
+      "dataset": "InsectWingbeatSound",
+      "c3_head": 0.403788,
+      "c3_head_bn": 0.195581,
+      "train_size": 176,
+      "delta": 0.208207,
+      "log_train_size": 5.170484
+    },
+    {
+      "dataset": "ItalyPowerDemand",
+      "c3_head": 0.946672,
+      "c3_head_bn": 0.804786,
+      "train_size": 53,
+      "delta": 0.141885,
+      "log_train_size": 3.970292
+    },
+    {
+      "dataset": "Lightning2",
+      "c3_head": 0.663934,
+      "c3_head_bn": 0.57582,
+      "train_size": 48,
+      "delta": 0.088115,
+      "log_train_size": 3.871201
+    },
+    {
+      "dataset": "Lightning7",
+      "c3_head": 0.479452,
+      "c3_head_bn": 0.287671,
+      "train_size": 56,
+      "delta": 0.191781,
+      "log_train_size": 4.025352
+    },
+    {
+      "dataset": "MoteStrain",
+      "c3_head": 0.800919,
+      "c3_head_bn": 0.509685,
+      "train_size": 16,
+      "delta": 0.291234,
+      "log_train_size": 2.772589
+    },
+    {
+      "dataset": "Phoneme",
+      "c3_head": 0.107661,
+      "c3_head_bn": 0.079839,
+      "train_size": 171,
+      "delta": 0.027822,
+      "log_train_size": 5.141664
+    },
+    {
+      "dataset": "PickupGestureWiimoteZ",
+      "c3_head": 0.245,
+      "c3_head_bn": 0.14,
+      "train_size": 40,
+      "delta": 0.105,
+      "log_train_size": 3.688879
+    },
+    {
+      "dataset": "Plane",
+      "c3_head": 0.969048,
+      "c3_head_bn": 0.296429,
+      "train_size": 84,
+      "delta": 0.672619,
+      "log_train_size": 4.430817
+    },
+    {
+      "dataset": "ShakeGestureWiimoteZ",
+      "c3_head": 0.4475,
+      "c3_head_bn": 0.225,
+      "train_size": 40,
+      "delta": 0.2225,
+      "log_train_size": 3.688879
+    },
+    {
+      "dataset": "SonyAIBORobotSurface1",
+      "c3_head": 0.909318,
+      "c3_head_bn": 0.855033,
+      "train_size": 16,
+      "delta": 0.054285,
+      "log_train_size": 2.772589
+    },
+    {
+      "dataset": "SonyAIBORobotSurface2",
+      "c3_head": 0.872508,
+      "c3_head_bn": 0.566763,
+      "train_size": 21,
+      "delta": 0.305745,
+      "log_train_size": 3.044522
+    },
+    {
+      "dataset": "StarLightCurves",
+      "c3_head": 0.899208,
+      "c3_head_bn": 0.748315,
+      "train_size": 800,
+      "delta": 0.150892,
+      "log_train_size": 6.684612
+    },
+    {
+      "dataset": "Trace",
+      "c3_head": 0.835,
+      "c3_head_bn": 0.315,
+      "train_size": 80,
+      "delta": 0.52,
+      "log_train_size": 4.382027
+    },
+    {
+      "dataset": "Wafer",
+      "c3_head": 0.991463,
+      "c3_head_bn": 0.756084,
+      "train_size": 800,
+      "delta": 0.235379,
+      "log_train_size": 6.684612
+    }
+  ]
+}

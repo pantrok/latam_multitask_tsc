@@ -1,0 +1,6 @@
+Head-update-count vs. C3-head recovery
+=======================================
+model: cnn
+N: 30 datasets
+updates_c3head / updates_c2 vs. (head_acc - joint_acc)
+  Spearman rho = +0.6291   permutation p = 0.0005

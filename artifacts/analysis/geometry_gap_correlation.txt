@@ -1,0 +1,22 @@
+Geometry-penalty correlation
+============================
+Isolation index : mean DTW distance to k=5 nearest neighbours
+Penalty         : HIVE-COTE 2.0 accuracy minus shared-model accuracy
+N               : 20 datasets
+
+  Spearman rho          -0.1474    permutation p = 0.5372
+  Without ['Plane', 'CinCECGTorso']-0.2590    permutation p = 0.2999
+  Partial (size, class) -0.1579    permutation p = 0.4998
+
+Paste into the manuscript, Section V-F:
+  \PENDING{rho}         -> -0.147
+  \PENDING{p}           -> 0.5372
+  \PENDING{rho_robust}  -> -0.259
+  \PENDING{p_robust}    -> 0.2999
+  \PENDING{rho_partial} -> -0.158
+  \PENDING{p_partial}   -> 0.4998
+
+Reminder: a weak or non-significant rho is reportable. The manuscript
+pre-commits (Section III-G) to downgrading the geometric account to a
+qualitative one in that case. Do not re-run with a different k to find a
+better number.

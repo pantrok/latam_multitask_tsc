@@ -1,0 +1,158 @@
+{
+  "n_datasets": 20,
+  "k_neighbours": 5,
+  "n_permutations": 10000,
+  "baseline": "HIVE-COTE 2.0",
+  "spearman_rho": -0.14736842105263157,
+  "permutation_p": 0.5372462753724627,
+  "robust_dropped": [
+    "Plane",
+    "CinCECGTorso"
+  ],
+  "robust_rho": -0.25902992776057787,
+  "robust_p": 0.29987001299870014,
+  "partial_rho": -0.15789473684210525,
+  "partial_p": 0.49975002499750026,
+  "per_dataset": [
+    {
+      "dataset": "Car",
+      "iota": 0.402148,
+      "delta": 0.65,
+      "acc_shared": 0.25,
+      "acc_specialist": 0.9
+    },
+    {
+      "dataset": "ChlorineConcentration",
+      "iota": 0.572164,
+      "delta": 0.506478,
+      "acc_shared": 0.252376,
+      "acc_specialist": 0.758854
+    },
+    {
+      "dataset": "CinCECGTorso",
+      "iota": 0.555648,
+      "delta": 0.726902,
+      "acc_shared": 0.273098,
+      "acc_specialist": 1.0
+    },
+    {
+      "dataset": "Earthquakes",
+      "iota": 0.667631,
+      "delta": 0.095324,
+      "acc_shared": 0.652878,
+      "acc_specialist": 0.748201
+    },
+    {
+      "dataset": "FordA",
+      "iota": 0.602126,
+      "delta": 0.023295,
+      "acc_shared": 0.932765,
+      "acc_specialist": 0.956061
+    },
+    {
+      "dataset": "FordB",
+      "iota": 0.594897,
+      "delta": 0.055401,
+      "acc_shared": 0.781636,
+      "acc_specialist": 0.837037
+    },
+    {
+      "dataset": "FreezerRegularTrain",
+      "iota": 0.296053,
+      "delta": 0.473991,
+      "acc_shared": 0.525307,
+      "acc_specialist": 0.999298
+    },
+    {
+      "dataset": "FreezerSmallTrain",
+      "iota": 0.30474,
+      "delta": 0.445132,
+      "acc_shared": 0.552763,
+      "acc_specialist": 0.997895
+    },
+    {
+      "dataset": "InsectWingbeatSound",
+      "iota": 0.413692,
+      "delta": 0.522727,
+      "acc_shared": 0.137879,
+      "acc_specialist": 0.660606
+    },
+    {
+      "dataset": "ItalyPowerDemand",
+      "iota": 0.336015,
+      "delta": 0.195578,
+      "acc_shared": 0.774295,
+      "acc_specialist": 0.969874
+    },
+    {
+      "dataset": "Lightning2",
+      "iota": 0.293194,
+      "delta": 0.247951,
+      "acc_shared": 0.538934,
+      "acc_specialist": 0.786885
+    },
+    {
+      "dataset": "Lightning7",
+      "iota": 0.275728,
+      "delta": 0.559932,
+      "acc_shared": 0.248288,
+      "acc_specialist": 0.808219
+    },
+    {
+      "dataset": "MoteStrain",
+      "iota": 0.335096,
+      "delta": 0.486621,
+      "acc_shared": 0.482228,
+      "acc_specialist": 0.96885
+    },
+    {
+      "dataset": "Phoneme",
+      "iota": 0.577275,
+      "delta": 0.299182,
+      "acc_shared": 0.067379,
+      "acc_specialist": 0.366561
+    },
+    {
+      "dataset": "Plane",
+      "iota": 0.480339,
+      "delta": 0.772619,
+      "acc_shared": 0.227381,
+      "acc_specialist": 1.0
+    },
+    {
+      "dataset": "SonyAIBORobotSurface1",
+      "iota": 0.384026,
+      "delta": 0.093386,
+      "acc_shared": 0.821755,
+      "acc_specialist": 0.915141
+    },
+    {
+      "dataset": "SonyAIBORobotSurface2",
+      "iota": 0.5311,
+      "delta": 0.381165,
+      "acc_shared": 0.542235,
+      "acc_specialist": 0.9234
+    },
+    {
+      "dataset": "StarLightCurves",
+      "iota": 0.470386,
+      "delta": 0.578558,
+      "acc_shared": 0.404322,
+      "acc_specialist": 0.98288
+    },
+    {
+      "dataset": "Trace",
+      "iota": 0.547116,
+      "delta": 0.7075,
+      "acc_shared": 0.2925,
+      "acc_specialist": 1.0
+    },
+    {
+      "dataset": "Wafer",
+      "iota": 0.31798,
+      "delta": 0.191272,
+      "acc_shared": 0.808728,
+      "acc_specialist": 1.0
+    }
+  ]
+}
